@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import './Welcome.css'
+import './Title.css'
 
-export class Welcome extends Component {
+export class Title extends Component {
   render() {
 
     // props implicitly available
@@ -13,4 +13,4 @@ export class Welcome extends Component {
   }
 }
 
-export default Welcome
+export default Title

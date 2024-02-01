@@ -20,10 +20,17 @@ export class Counter extends Component {
       })
     };
 
+    const cloudItems = new Array(this.state.count).fill('☁️').map((cloud, idx) => ({ cloud, idx }));
+
     return (
       <div className='counter'>
         <div className='count'>{this.state.count} {animal}</div>
         <button className='btn' onClick={addOne}>NEXT</button>
+        <div className='clouds'>
+          {cloudItems.map((cloudItem) => (
+            <div key={cloudItem.idx}>{cloudItem.cloud}</div>
+          ))}
+        </div>
       </div>
     )
   }

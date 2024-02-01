@@ -1,7 +1,7 @@
 import React from 'react'
-import './Welcome.css'
+import './Title.css'
 
-export const Welcome = (props) => {
+export const Title = (props) => {
   
   // props passed in explicitly
   const message = props.message ?? 'Welcome to React';
@@ -11,4 +11,4 @@ export const Welcome = (props) => {
   );
 }
 
-export default Welcome
+export default Title

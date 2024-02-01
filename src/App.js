@@ -1,14 +1,14 @@
 import './App.css';
 import Counter from './Counter/CounterCC';
 // import Counter from './Counter/CounterFC';
-import Welcome from './Title/TitleCC';
-// import Welcome from './Welcome/WelcomeFC';
+import Title from './Title/TitleCC';
+// import Title from './Title/TitleFC';
 
 function App() {
   return (
     <div className="App">
 
-      <Welcome message='Happy Bedtime!' />
+      <Title message='Happy Bedtime!' />
 
       <Counter animal='Sheep' />
 
