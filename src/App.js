@@ -2,7 +2,7 @@ import './App.css';
 import Counter from './Counter/CounterCC';
 // import Counter from './Counter/CounterFC';
 import Title from './Title/TitleCC';
-// import Welcome from './Welcome/WelcomeFC';
+// import Title from './Title/TitleFC';
 
 function App() {
   const handleIncrement = () => {
