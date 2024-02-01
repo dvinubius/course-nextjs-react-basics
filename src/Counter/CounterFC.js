@@ -20,8 +20,8 @@ export const Counter = (props) => {
 
   return (
     <div className='counter'>
-      <div>`${countState.count} ${animal}`</div>
-      <button onClick={addOne}>INC</button>
+      <div className='count'>{countState.count} {animal}</div>
+      <button className='btn' onClick={addOne}>NEXT</button>
     </div>
   )
 }

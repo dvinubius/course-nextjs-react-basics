@@ -1,7 +1,7 @@
 import './App.css';
 import Counter from './Counter/CounterCC';
 // import Counter from './Counter/CounterFC';
-import Welcome from './Welcome/WelcomeCC';
+import Title from './Title/TitleCC';
 // import Welcome from './Welcome/WelcomeFC';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
 
-      <Welcome message='Happy Bedtime!' />
+      <Title message='Happy Bedtime!' />
 
       <Counter animal='Sheep' onIncrement={handleIncrement} />
 
