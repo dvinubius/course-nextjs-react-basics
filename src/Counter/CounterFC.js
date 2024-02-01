@@ -15,6 +15,7 @@ export const Counter = (props) => {
       count: curr.count + 1,
       lastUpdate: new Date().toLocaleString()
     }));
+    props.onIncrement();
   };
 
   return (
