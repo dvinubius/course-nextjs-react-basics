@@ -8,7 +8,7 @@ export class Welcome extends Component {
     const message = this.props.message ?? 'Welcome to React';
 
     return (
-      <div className='welcome'>{message}</div>
+      <div className='title'>{message}</div>
     )
   }
 }

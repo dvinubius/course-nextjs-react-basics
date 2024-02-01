@@ -1,7 +1,7 @@
 import './App.css';
 import Counter from './Counter/CounterCC';
 // import Counter from './Counter/CounterFC';
-import Welcome from './Welcome/WelcomeCC';
+import Welcome from './Title/TitleCC';
 // import Welcome from './Welcome/WelcomeFC';
 
 function App() {

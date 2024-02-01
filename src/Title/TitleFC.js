@@ -4,10 +4,10 @@ import './Welcome.css'
 export const Welcome = (props) => {
   
   // props passed in explicitly
-  const message = this.props.message ?? 'Welcome to React';
+  const message = props.message ?? 'Welcome to React';
 
   return (
-    <div className='welcome'>{message}</div>
+    <div className='title'>{message}</div>
   );
 }
 
