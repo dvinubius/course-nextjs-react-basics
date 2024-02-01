@@ -1,16 +1,20 @@
 import './App.css';
 import Counter from './Counter/CounterCC';
 // import Counter from './Counter/CounterFC';
-import Welcome from './Welcome/WelcomeCC';
+import Title from './Title/TitleCC';
 // import Welcome from './Welcome/WelcomeFC';
 
 function App() {
+  const handleIncrement = () => {
+    console.log('Incremented!');
+  }
+
   return (
     <div className="App">
 
-      <Welcome message='Happy Bedtime!' />
+      <Title message='Happy Bedtime!' />
 
-      <Counter animal='Sheep' />
+      <Counter animal='Sheep' onIncrement={handleIncrement} />
 
     </div>
   );

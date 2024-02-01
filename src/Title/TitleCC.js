@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import './Welcome.css'
+import './Title.css'
 
-export class Welcome extends Component {
+export class Title extends Component {
   render() {
 
     // props implicitly available
     const message = this.props.message ?? 'Welcome to React';
 
     return (
-      <div className='welcome'>{message}</div>
+      <div className='title'>{message}</div>
     )
   }
 }
 
-export default Welcome
+export default Title

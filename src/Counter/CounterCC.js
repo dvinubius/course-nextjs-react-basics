@@ -18,6 +18,7 @@ export class Counter extends Component {
         count: this.state.count + 1,
         lastUpdate: new Date().toLocaleString()
       })
+      this.props.onIncrement();
     };
 
     return (

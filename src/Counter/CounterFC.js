@@ -15,12 +15,13 @@ export const Counter = (props) => {
       count: curr.count + 1,
       lastUpdate: new Date().toLocaleString()
     }));
+    props.onIncrement();
   };
 
   return (
     <div className='counter'>
-      <div>`${countState.count} ${animal}`</div>
-      <button onClick={addOne}>INC</button>
+      <div className='count'>{countState.count} {animal}</div>
+      <button className='btn' onClick={addOne}>NEXT</button>
     </div>
   )
 }
