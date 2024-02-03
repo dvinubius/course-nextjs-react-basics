@@ -1,8 +1,14 @@
 .App {
+  --main-bg-color: #282c34;
+
   min-height: 100vh;
-  background-color: #282c34;
+  background-color: var(--main-bg-color);
   text-align: center;
   color: white;
   font-family: 'Comic Sans MS', cursive, sans-serif;
 
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
